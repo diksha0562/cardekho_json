@@ -1,0 +1,14 @@
+{
+    
+    "car_type" : {"audi" : 
+                 { "price" :"54.02 lakh", "fuel_type" : "Diesel" , "mileage" : "19.2kmpl" , "seating_capacity": "4", "transmission_type": "Automatic","number_of_cylinders": 4,"image":"<img src=./images/audi_a5.jpg alt=audi>"},
+                 "bmw" :
+                  {
+                      "price" :"52.0 lakh", "fuel_type" : "Diesel" , "mileage" : "22.48kmpl" , "seating_capacity": "5", "transmission_type": "Automatic","number_of_cylinders": "4","image":"<img src=./images/bmw_5_series.jpg alt=bmw>"
+                  },
+                  "mercedes" :
+                  {
+                      "price" :"51.73 lakh", "fuel_type" : "Diesel" , "mileage" : "17.9kmpl" , "seating_capacity": "5", "transmission_type": "Automatic","number_of_cylinders": "4","image":"<img src=./images/mercedes.jpg alt=mercedes"
+                  }
+                 }
+}

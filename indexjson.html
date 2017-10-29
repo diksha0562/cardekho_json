@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title> Car comparision </title>
+    <script src="./car.js"></script>
+    <link rel= "stylesheet" type="text/css" href="stylesheet.css" >
+    </head>
+    <body>
+        <h1 id="heading">Car Description</h1>
+        <div class="dropdown">
+        <select id="myselect" onchange="car_desc()">
+            <option selected="selected"> Select your car</option>
+            <option value="audi"> Audi A5 </option>
+            <option value= "bmw"> BMW 5 Series</option>
+            <option value= "mercedes"> Mercedes-Benz GLC Class</option>
+        </select>
+        
+        <table id="desc_table" style="width=100%"> </table>
+     </div>
+        <div class="comp">
+        <h2> Compare Cars </h2>
+           
+        <div class="dropdown_comp">
+        <select id="dd1" >
+            <option selected="selected"> Select your car</option>
+            <option value="audi"> Audi A5 </option>
+            <option value= "bmw"> BMW 5 Series</option>
+            <option value= "mercedes"> Mercedes-Benz GLC Class</option>
+        </select >
+            <select id="dd2">
+            <option selected="selected"> Select your car</option>
+            <option value="audi"> Audi A5 </option>
+            <option value= "bmw"> BMW 5 Series</option>
+            <option value= "mercedes"> Mercedes-Benz GLC Class</option>
+        </select>
+
+        </div>
+        
+        
+        <button id="compbutton" onclick="comp_function()">Compare</button>
+        <div class="radio">
+    <input type="radio" id="allcheck" name="properties" onclick="check()" checked>All</input>
+    <input type="radio" id="similarcheck" name="properties" onclick="check()"  >Similar Properties</input>
+<input type="radio" id="diffcheck" name="properties" onclick="check()">Different Properties</input>
+</div>
+<table id="mytable" style="width=100%"> </table>
+        <div>
+    </body>
+
+</html>

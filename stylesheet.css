@@ -1,0 +1,30 @@
+table,td,th{
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid green;
+    padding: 5px;
+    text-align: center;
+    text-decoration-style: solid;
+}
+#desc_table{
+    position: relative;
+        top : 10px;
+    
+}
+.comp{
+    position : relative;
+    top:10px;
+}
+#compbutton{
+    position: absolute;
+    top: 80px;
+}
+.radio{
+    position: absolute;
+    top: 110px;
+}
+#mytable{
+    position: absolute;
+    top: 140px;
+}
+
